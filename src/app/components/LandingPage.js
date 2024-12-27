@@ -23,7 +23,7 @@ export default function LandingPage() {
   return (
     <div className="fixed inset-0 flex items-center justify-center">
       {/* Inline Text: "John Doe Personal Portfolio" */}
-      <h1 className="text-5xl md:text-7xltext-white">
+      <h1 className="text-lg sm:text-2xl md:text-5xl lg:text-7xl text-white">
         <span
           className={`transition-opacity duration-500 ${
             fadeOutJohnDoe ? "opacity-0" : "opacity-100"
