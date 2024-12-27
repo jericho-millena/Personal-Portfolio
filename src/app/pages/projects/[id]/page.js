@@ -11,6 +11,14 @@ import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import NavBar from "@/app/components/navbar";
 import { projectData } from "@/app/data/data"; // Adjust path as needed
 
+// Generate static paths for dynamic routes
+export async function generateStaticParams() {
+  // Map project IDs to static paths
+  return projectData.map((project) => ({
+    id: project.id.toString(), // Ensure IDs are strings
+  }));
+}
+
 export default function ProjectDetailsPage() {
   const params = useParams(); // Use useParams to get the `id`
   const id = params?.id; // Extract the id from params
