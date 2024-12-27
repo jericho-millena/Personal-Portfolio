@@ -678,27 +678,27 @@ export const educationData = [
 export const certificationData = [
   {
     id: 1,
-    imgSrc: "./JS.jpeg", // Replace with your certificate image paths
+    imgSrc: "/Personal-Portfolio/JS.jpeg", // Replace with your certificate image paths
     alt: "Certificate 1",
   },
   {
     id: 2,
-    imgSrc: "./Angular.jpeg",
+    imgSrc: "/Personal-Portfolio/Angular.jpeg",
     alt: "Certificate 2",
   },
   {
     id: 3,
-    imgSrc: "./React.jpeg",
+    imgSrc: "/Personal-Portfolio/React.jpeg",
     alt: "Certificate 3",
   },
   {
     id: 4,
-    imgSrc: "./Frontend.jpeg",
+    imgSrc: "/Personal-Portfolio/Frontend.jpeg",
     alt: "Certificate 4",
   },
   {
     id: 5,
-    imgSrc: "./Softengr.jpeg",
+    imgSrc: "/Personal-Portfolio/Softengr.jpeg",
     alt: "Certificate 5",
   },
 ];
@@ -745,7 +745,7 @@ export const projectData = [
     title: "Public Dashboard",
     subtitle:
       "A Public dashboard that provides real-time insights and visualizations for Research Papers in Batangas State University.",
-    imgSrc: "./publicD.jpg", // Replace with your image path
+    imgSrc: "/Personal-Portfolio/publicD.jpg", // Replace with your image path
     alt: "Public Dashboard",
     links: [
       {
@@ -770,8 +770,8 @@ export const projectData = [
     title: "Ligtas App",
     subtitle:
       "An emergency response application designed to provide real-time alerts and assistance during critical situations",
-    imgSrc: "./ligtasapp.jpg", // Replace with your image path
-    alt: "Taskify Screenshot",
+    imgSrc: "/Personal-Portfolio/ligtasapp.jpg", // Replace with your image path
+    alt: "Ligtas App",
     links: [],
     isConfidential: true,
     comingSoon: false,
@@ -783,8 +783,8 @@ export const projectData = [
     title: "Market Analysis App",
     subtitle:
       " Harnessing the power of AI, this app provides real-time insights, trend forecasts, and data-driven recommendations",
-    imgSrc: "./market.jpg", // Replace with your image path
-    alt: "MediTrack Screenshot",
+    imgSrc: "/Personal-Portfolio/market.jpg", // Replace with your image path
+    alt: "Market Analysis App",
     links: [],
     isConfidential: false,
     comingSoon: true,
@@ -796,8 +796,8 @@ export const projectData = [
     title: "Match & Vibe",
     subtitle:
       " A personalized music experience powered by Spotify API and AI, Analyzes preferences for precise song recommendations.",
-    imgSrc: "./spot.jpg", // Replace with your image path
-    alt: "MediTrack Screenshot",
+    imgSrc: "/Personal-Portfolio/spot.jpg", // Replace with your image path
+    alt: "Spotify API",
     links: [],
     isConfidential: false,
     comingSoon: true,
