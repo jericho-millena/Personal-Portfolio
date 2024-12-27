@@ -1,5 +1,3 @@
-// Data.js
-
 export const experienceData = [
   {
     title: "Next.js",
