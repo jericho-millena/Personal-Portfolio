@@ -39,12 +39,43 @@ export default function ProjectDetailsClient({ project, otherProjects }) {
         }`}
       >
         <h1 className="text-4xl font-bold mb-4">{project.title}</h1>
+        <div className="mb-8 flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
+          {project.links?.map((link, index) => (
+            <a
+              key={index}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`text-md ${
+                link.type === "primary" ? "text-purple-400" : "text-gray-400"
+              } hover:text-purple-500 duration-300 flex items-center space-x-2`}
+            >
+              <span>{link.label}</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="w-5 h-5"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d={link.iconPath}
+                />
+              </svg>
+            </a>
+          ))}
+        </div>
+
         <p className="text-gray-400 text-lg mb-8">{project.subtitle}</p>
         {project.imgSrc && (
           <img
             src={project.imgSrc}
             alt={project.alt || "Project Image"}
-            className="rounded-lg mb-8"
+            className="w-auto md:max-w-xl lg:max-w-2xl mx-auto
+ rounded-lg mb-8"
           />
         )}
         <p className="text-lg leading-relaxed mb-16">{project.description}</p>
@@ -58,6 +89,7 @@ export default function ProjectDetailsClient({ project, otherProjects }) {
           loop={true}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
+            640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
@@ -65,14 +97,20 @@ export default function ProjectDetailsClient({ project, otherProjects }) {
         >
           {otherProjects?.map((proj) => (
             <SwiperSlide key={proj.id}>
-              <Link href={`/pages/projects/${proj.id}`} className="block p-4">
+              <Link
+                href={`/pages/projects/${proj.id}`}
+                className="block bg-zinc-900 bg-opacity-40 border border-2 border-zinc-800 rounded-lg shadow-lg p-4 hover:scale-105 transform transition"
+              >
                 <img
                   src={proj.imgSrc}
                   alt={proj.alt || "Project Image"}
-                  className="rounded-md mb-4"
+                  className="rounded-md mb-4 w-full object-cover
+"
                 />
-                <h3 className="text-lg font-semibold">{proj.title}</h3>
-                <p className="text-gray-400">{proj.subtitle}</p>
+                <h3 className="text-lg font-semibold text-white">
+                  {proj.title}
+                </h3>
+                <p className="text-gray-400 text-sm">{proj.subtitle}</p>
               </Link>
             </SwiperSlide>
           ))}
