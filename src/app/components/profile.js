@@ -41,7 +41,7 @@ export default function Profile() {
         <div className="flex flex-col lg:flex-row justify-center md:justify-start lg:justify-start lg:space-x-6">
           {/* Download CV Button */}
           <a
-            href="/cv.pdf"
+            href="/Personal-Portfolio/cv.pdf"
             download="Millena_Jericho_CV"
             className="bg-white hover:bg-purple-600 text-black hover:text-white text-center font-medium py-3 px-6 rounded-full w-40 shadow-lg transition duration-300 self-center"
           >
@@ -49,7 +49,7 @@ export default function Profile() {
           </a>
           {/* See Experiences Link */}
           <a
-            href="/pages/exp"
+            href="/Personal-Portfolio/pages/exp"
             className="text-purple-400 hover:text-white duration-300 font-medium self-center py-4"
           >
             See experiences
