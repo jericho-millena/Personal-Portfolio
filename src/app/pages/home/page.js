@@ -12,7 +12,7 @@ export default function Home() {
   const [fworksRef, isFworksVisible] = useInView(0.2);
 
   return (
-    <div>
+    <div className="bg-[#0a0a0a]">
       <div>
         <NavBar />
       </div>

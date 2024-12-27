@@ -6,7 +6,7 @@ import Footer from "@/app/components/footer";
 
 export default function page() {
   return (
-    <div>
+    <div className="bg-[#0a0a0a]">
       <Navbar />
       <div className="animate-slideInUp">
         <Expproj />
