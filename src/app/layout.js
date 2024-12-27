@@ -1,11 +1,10 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
 
-// Import Raleway from Google Fonts
 const raleway = Raleway({
-  variable: "--font-raleway", // Set a custom variable for Raleway
   subsets: ["latin"],
-  weight: ["400", "600", "700"], // Specify font weights to load
+  weight: ["400", "600", "700"],
+  variable: "--font-raleway",
 });
 
 export const metadata = {
