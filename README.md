@@ -1,13 +1,25 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a [Your Role] using modern web development technologies.
+Welcome to my personal portfolio! This project showcases my skills, projects, and experience as a 4th Year CS Student using modern web development technologies.
 
 ## 🌟 Features
 - Responsive design for mobile and desktop.
 - Interactive animations and effects.
 - Showcases professional projects and experiences.
 - Contact information for direct communication.
+  
+## 🌟 About
 
+This portfolio serves as a platform to present my journey in Software Engineering. It highlights:
+- My technical expertise and tools I work with.
+- Key projects that demonstrate my ability to deliver innovative solutions.
+- Achievements and professional experiences.
+
+This portfolio was built with the aim to:
+- Provide an engaging and interactive way to connect with me.
+- Highlight my skills and passion for development and design.
+- Create an easy way to contact and collaborate.
+  
 ## 🚀 Tech Stack
 - **Frameworks:** Next.js, React.js
 - **Styling:** Tailwind CSS
