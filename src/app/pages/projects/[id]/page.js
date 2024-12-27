@@ -1,17 +1,22 @@
 import React from "react";
 import NavBar from "@/app/components/navbar";
-import { projectData } from "@/app/data/data"; // Adjust path as needed
-import ProjectDetailsClient from "@/app/components/ProjectDetailsClient"; // Client component
+import { projectData } from "@/app/data/data"; // Ensure correct import path
+import ProjectDetailsClient from "@/app/components/ProjectDetailsClient";
 
 export async function generateStaticParams() {
+  if (!projectData || !Array.isArray(projectData)) {
+    console.error("projectData is undefined or not an array.");
+    return [];
+  }
+
   return projectData.map((project) => ({
     id: project.id.toString(),
   }));
 }
 
 export default function ProjectDetailsPage({ params }) {
-  const id = params.id; // Extract the id from params
-  const project = projectData.find((proj) => proj.id.toString() === id);
+  const id = params.id;
+  const project = projectData?.find((proj) => proj.id.toString() === id);
 
   if (!project) {
     return (
@@ -21,10 +26,15 @@ export default function ProjectDetailsPage({ params }) {
     );
   }
 
+  const otherProjects =
+    projectData?.filter((proj) => proj.id.toString() !== id) || [];
+
   return (
     <div>
       <NavBar />
-      <ProjectDetailsClient project={project} />
+      <div className="p-4 lg:p-16 bg-layered-gradient bg-[#0a0a0a] text-white">
+        <ProjectDetailsClient project={project} otherProjects={otherProjects} />
+      </div>
     </div>
   );
 }
