@@ -7,7 +7,7 @@ export default function Profile() {
       <div className="order-1 lg:order-2 mb-8 md:mt-0 w-1/2 flex justify-center">
         <div className="relative w-40 h-40 sm:w-60 sm:h-60  md:w-72 md:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-gradient-to-r from-green-300 to-green-500">
           <img
-            src="/profile.jpg"
+            src="./profile.jpg"
             alt="Jericho"
             className="w-full h-full object-cover"
           />

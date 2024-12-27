@@ -678,49 +678,28 @@ export const educationData = [
 export const certificationData = [
   {
     id: 1,
-    imgSrc: "/JS.jpeg", // Replace with your certificate image paths
+    imgSrc: "./JS.jpeg", // Replace with your certificate image paths
     alt: "Certificate 1",
   },
   {
     id: 2,
-    imgSrc: "/Angular.jpeg",
+    imgSrc: "./Angular.jpeg",
     alt: "Certificate 2",
   },
   {
     id: 3,
-    imgSrc: "/React.jpeg",
+    imgSrc: "./React.jpeg",
     alt: "Certificate 3",
   },
   {
     id: 4,
-    imgSrc: "/Frontend.jpeg",
-    alt: "Certificate 3",
+    imgSrc: "./Frontend.jpeg",
+    alt: "Certificate 4",
   },
   {
     id: 5,
-    imgSrc: "/Softengr.jpeg",
-    alt: "Certificate 3",
-  },
-];
-
-export const certificateData = [
-  {
-    title: "Angular Certificate",
-    subtitle: "Hacker Rank",
-    dateRange: "June 2024",
-    pdfLink: "/angularcert.pdf", // Replace with the actual certificate link
-  },
-  {
-    title: "JavaScript Certificate",
-    subtitle: "Hacker Rank",
-    dateRange: "June 2024",
-    pdfLink: "/jscert.pdf", // Replace with the actual certificate link
-  },
-  {
-    title: "React Certificate",
-    subtitle: "Hacker Rank",
-    dateRange: "June 2024",
-    pdfLink: "/reactcert.pdf", // Replace with the actual certificate link
+    imgSrc: "./Softengr.jpeg",
+    alt: "Certificate 5",
   },
 ];
 
@@ -766,7 +745,7 @@ export const projectData = [
     title: "Public Dashboard",
     subtitle:
       "A Public dashboard that provides real-time insights and visualizations for Research Papers in Batangas State University.",
-    imgSrc: "/publicD.jpg", // Replace with your image path
+    imgSrc: "./publicD.jpg", // Replace with your image path
     alt: "Public Dashboard",
     links: [
       {
@@ -791,7 +770,7 @@ export const projectData = [
     title: "Ligtas App",
     subtitle:
       "An emergency response application designed to provide real-time alerts and assistance during critical situations",
-    imgSrc: "/ligtasapp.jpg", // Replace with your image path
+    imgSrc: "./ligtasapp.jpg", // Replace with your image path
     alt: "Taskify Screenshot",
     links: [],
     isConfidential: true,
@@ -804,7 +783,7 @@ export const projectData = [
     title: "Market Analysis App",
     subtitle:
       " Harnessing the power of AI, this app provides real-time insights, trend forecasts, and data-driven recommendations",
-    imgSrc: "/market.jpg", // Replace with your image path
+    imgSrc: "./market.jpg", // Replace with your image path
     alt: "MediTrack Screenshot",
     links: [],
     isConfidential: false,
@@ -817,7 +796,7 @@ export const projectData = [
     title: "Match & Vibe",
     subtitle:
       " A personalized music experience powered by Spotify API and AI, Analyzes preferences for precise song recommendations.",
-    imgSrc: "/spot.jpg", // Replace with your image path
+    imgSrc: "./spot.jpg", // Replace with your image path
     alt: "MediTrack Screenshot",
     links: [],
     isConfidential: false,
