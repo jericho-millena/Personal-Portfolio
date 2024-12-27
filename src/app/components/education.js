@@ -46,7 +46,9 @@ export default function Education() {
           <div
             key={index}
             className={`border border-zinc-900 border-2 rounded-3xl shadow-md p-6 transition-all duration-300 ${
-              expandedIndex !== index ? "hover:bg-purple-600" : ""
+              expandedIndex !== index
+                ? "md:hover:bg-purple-600 lg:hover:bg-purple-600"
+                : ""
             }`}
           >
             {/* Header Section */}

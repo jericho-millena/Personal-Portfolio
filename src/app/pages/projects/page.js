@@ -37,7 +37,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div>
+    <div className="bg-[#0a0a0a]">
       <Navbar />
       <div className="bg-layered-gradient bg-[#0a0a0a] p-4 lg:p-16">
         {projectData.map((project, index) => (
