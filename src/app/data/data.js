@@ -699,6 +699,11 @@ export const certificationData = [
     imgSrc: "/Personal-Portfolio/Softengr.jpeg",
     alt: "Certificate 5",
   },
+  {
+    id: 6,
+    imgSrc: "/Personal-Portfolio/DataAnalytics.jpeg",
+    alt: "Certificate 6",
+  },
 ];
 
 export const skillsData = [
