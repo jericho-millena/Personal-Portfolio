@@ -701,7 +701,7 @@ export const certificationData = [
   },
   {
     id: 6,
-    imgSrc: "/Personal-Portfolio/DataAnalytics.jpeg",
+    imgSrc: "/Personal-Portfolio/DataAnalytics.jpg",
     alt: "Certificate 6",
   },
 ];
