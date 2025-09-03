@@ -650,19 +650,21 @@ export const educationData = [
       "Mobile Computing",
       "Machine Learning",
       "Database Management System",
+      "Web Development",
+      "Software Engineering",
     ],
     organizations: [
       {
         name: "Junior Philippine Computer Society - Associate Director for Marketing & Publication IV",
-        date: "October 2024 — Present",
+        date: "October 2024 — May 2025",
       },
       {
         name: "Focus BatStateU Camera Club - Member",
-        date: "August 2024 — Present",
+        date: "August 2024 — May 2025",
       },
       {
         name: "Association of Committed Computer Science Student - Member",
-        date: "August 2021 — Present",
+        date: "August 2021 — May 2025",
       },
     ],
   },
