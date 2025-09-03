@@ -643,7 +643,7 @@ export const educationData = [
   {
     title: "Batangas State University - TNEU",
     subtitle: "GCH, Alangilan, Batangas City",
-    yearRange: "2021 — Present",
+    yearRange: "August 2021 — May 2025",
     coursework: [
       "Computer Programming",
       "Data Structure and Algorithm",
@@ -712,7 +712,7 @@ export const expData = [
   {
     title: "Lead Front-end Software Engineer",
     contractType: "Contract",
-    dateRange: "May, 2024 — December, 2024",
+    dateRange: "August, 2024 — December, 2024",
     location: "Batangas City, Batangas",
     companyName: "Center for Technopreneurship and Innovation",
     description: [

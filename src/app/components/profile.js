@@ -30,7 +30,7 @@ export default function Profile() {
         <p className="text-gray-400 text-md lg:text-lg text-center md:text-left lg:text-left leading-loose lg:leading-loose">
           As a{" "}
           <span className="font-bold text-white">
-            4th-year Computer Science student
+            Computer Science graduate
           </span>{" "}
           with a strong interest in{" "}
           <span className="font-bold text-white">Full-Stack Development</span>,
