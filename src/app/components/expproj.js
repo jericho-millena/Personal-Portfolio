@@ -20,7 +20,7 @@ export default function Expproj() {
 
       {/* Button Section */}
       <a
-        href="/cv.pdf"
+        href="/Personal-Portfolio/cv.pdf"
         download="Millena_Jericho_CV"
         className="bg-white text-black font-medium py-3 px-6 rounded-full shadow-md hover:bg-purple-600 hover:text-white hover:shadow-lg transition duration-300"
       >
