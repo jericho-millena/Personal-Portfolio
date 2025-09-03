@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
-import { educationData, certificationData, skillsData } from "../data/data"; // Adjust the path as necessary
+import { educationData, certificationData } from "../data/data"; // Adjust the path as necessary
 
 export default function Education() {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -196,38 +196,6 @@ export default function Education() {
             </div>
           </div>
         )}
-      </div>
-      <div className="my-8 lg:px-16">
-        <h1
-          className="text-3xl md:text-4xl lg:text-5xl font-bold text-transparent bg-clip-text 
-          animate-gradient-move bg-gradient-to-r 
-          from-purple-500 via-blue-400 to-purple-500 
-          bg-[length:200%_200%]"
-        >
-          My Skills
-        </h1>
-      </div>
-      <div className="lg:px-16">
-        <div className="border border-zinc-900 border-2 p-6 rounded-lg shadow-lg space-y-4">
-          {skillsData.map((item, index) => (
-            <div key={index}>
-              {/* Skill and Percentage */}
-              <div className="flex justify-between items-center mb-1">
-                <span className="text-white font-semibold">{item.skill}</span>
-                <span className="text-gray-400">{item.percentage}%</span>
-              </div>
-
-              {/* Progress Bar */}
-              <div className="w-full bg-zinc-700 rounded-full h-2">
-                <div
-                  className="h-2 rounded-full bg-gradient-to-r from-purple-500 via-blue-500 via-green-500 to-purple-500
-                animate-progress-gradient bg-[length:200%]"
-                  style={{ width: `${item.percentage}%` }}
-                ></div>
-              </div>
-            </div>
-          ))}
-        </div>
       </div>
     </div>
   );

@@ -706,15 +706,6 @@ export const certificationData = [
   },
 ];
 
-export const skillsData = [
-  { skill: "Web Development", percentage: 90 },
-  { skill: "Graphic Design", percentage: 75 },
-  { skill: "Javascript Frameworks", percentage: 90 },
-  { skill: "Node.js", percentage: 75 },
-  { skill: "Database Management", percentage: 75 },
-  { skill: "API Integration", percentage: 85 },
-];
-
 export const expData = [
   {
     title: "Lead Front-end Software Engineer",
