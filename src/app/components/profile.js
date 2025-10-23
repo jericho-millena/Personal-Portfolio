@@ -35,8 +35,8 @@ export default function Profile() {
           with a strong interest in{" "}
           <span className="font-bold text-white">Full-Stack Development</span>,
           I specialize in creating scalable and dynamic web applications.
-          Proficient in Next.js, React, and Express.js, I excel in developing
-          seamless user interfaces and robust back-end solutions.
+          Proficient in Next.js, React, React Native, and Supabase, I excel in
+          developing seamless user interfaces and robust back-end solutions.
         </p>
         <div className="flex flex-col lg:flex-row justify-center md:justify-start lg:justify-start lg:space-x-6">
           {/* Download CV Button */}
