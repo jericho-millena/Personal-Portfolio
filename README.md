@@ -29,7 +29,7 @@ This portfolio was built with the aim to:
 ## 🔗 Contact
 Feel free to reach out for collaborations or inquiries!
 
-- **Email:** johndoe@example.com
+- **Email:** millenajerichojames@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/jerichomillena/
 
 ## 📂 Folder Structure
