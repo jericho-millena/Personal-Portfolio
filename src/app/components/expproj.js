@@ -9,7 +9,7 @@ export default function Expproj() {
         <br />
         journey as a{" "}
         <span className="font-semibold text-white">
-          Computer Science student
+          Computer Science Graduate
         </span>
         ,
         <br />
