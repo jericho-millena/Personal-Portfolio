@@ -887,7 +887,7 @@ export const expData = [
   {
     title: "Project Intern",
     contractType: "Internship",
-    dateRange: "June, 2024 — July, 2014",
+    dateRange: "June, 2024 — July, 2024",
     location: "Batangas City, Batangas",
     companyName: "Center for Technopreneurship and Innovation",
     description: [

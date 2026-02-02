@@ -52,7 +52,9 @@ export default function Footer() {
       </div>
 
       {/* Footer Text */}
-      <div className="text-sm text-gray-400">jerichomillena &copy; 2024</div>
+      <div className="text-sm text-gray-400">
+        jerichomillena &copy; {new Date().getFullYear()}
+      </div>
     </div>
   );
 }
