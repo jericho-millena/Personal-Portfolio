@@ -944,7 +944,14 @@ export const projectData = [
       "A personal portfolio website showcasing skills, projects, and experiences as a software engineer",
     imgSrc: "/Personal-Portfolio/portfolio.jpg",
     alt: "Personal Portfolio Website",
-    links: [],
+    links: [
+      {
+        label: "jericho-millena.github.io/Personal-Portfolio",
+        href: "https://jericho-millena.github.io/Personal-Portfolio/",
+        type: "primary",
+        iconPath: "M13.5 4.5h6m0 0v6m0-6L10.5 13.5",
+      },
+    ],
     isConfidential: true,
     comingSoon: false,
     description:
