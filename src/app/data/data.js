@@ -904,7 +904,7 @@ export const projectData = [
     title: "Public Dashboard",
     subtitle:
       "A Public dashboard that provides real-time insights and visualizations for Research Papers in Batangas State University.",
-    imgSrc: "/Personal-Portfolio/publicD.jpg", // Replace with your image path
+    imgSrc: "/Personal-Portfolio/publicD.jpg",
     alt: "Public Dashboard",
     links: [
       {
@@ -929,7 +929,7 @@ export const projectData = [
     title: "Ligtas App",
     subtitle:
       "An emergency response application designed to provide real-time alerts and assistance during critical situations",
-    imgSrc: "/Personal-Portfolio/ligtasapp.jpg", // Replace with your image path
+    imgSrc: "/Personal-Portfolio/ligtasapp.jpg",
     alt: "Ligtas App",
     links: [],
     isConfidential: true,
@@ -939,6 +939,19 @@ export const projectData = [
   },
   {
     id: 3,
+    title: "Personal Portfolio Website",
+    subtitle:
+      "A personal portfolio website showcasing skills, projects, and experiences as a software engineer",
+    imgSrc: "/Personal-Portfolio/portfolio.jpg",
+    alt: "Personal Portfolio Website",
+    links: [],
+    isConfidential: true,
+    comingSoon: false,
+    description:
+      "This personal portfolio website is a showcase of my skills, projects, and experiences as a software engineer. It features a clean and modern design, with sections dedicated to my education, certifications, work experience, and projects. The website is built using React and Tailwind CSS, ensuring a responsive and visually appealing user experience across all devices.",
+  },
+  {
+    id: 4,
     title: "Fitly",
     subtitle:
       "A smart outfit management app that lets users upload, organize, and create personalized outfit collections with ease.",

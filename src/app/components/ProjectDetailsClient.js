@@ -78,7 +78,9 @@ export default function ProjectDetailsClient({ project, otherProjects }) {
  rounded-lg mb-8"
           />
         )}
-        <p className="text-lg leading-relaxed mb-16">{project.description}</p>
+        <p className="text-lg leading-relaxed mb-16 text-justify">
+          {project.description}
+        </p>
       </div>
 
       <div className="my-16">
