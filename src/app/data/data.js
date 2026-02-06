@@ -966,7 +966,7 @@ export const projectData = [
     alt: "Fitly Outfit Management App",
     links: [],
     isConfidential: false,
-    comingSoon: false,
+    comingSoon: true,
     description:
       "Fitly is a mobile application designed to simplify outfit planning and wardrobe management. Users can upload clothes, remove backgrounds, and combine upperwear, lowerwear, and shoes into personalized collections. Built with React Native, Supabase, and NativeWind, the app offers real-time syncing, secure user authentication, and a sleek, responsive interface — making fashion organization effortless and fun.",
   },
