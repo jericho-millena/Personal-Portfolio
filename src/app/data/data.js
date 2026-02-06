@@ -952,7 +952,7 @@ export const projectData = [
         iconPath: "M13.5 4.5h6m0 0v6m0-6L10.5 13.5",
       },
     ],
-    isConfidential: true,
+    isConfidential: false,
     comingSoon: false,
     description:
       "This personal portfolio website is a showcase of my skills, projects, and experiences as a software engineer. It features a clean and modern design, with sections dedicated to my education, certifications, work experience, and projects. The website is built using React and Tailwind CSS, ensuring a responsive and visually appealing user experience across all devices.",
